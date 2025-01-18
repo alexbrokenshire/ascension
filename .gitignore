@@ -169,3 +169,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Exclude anything suffixed with _files (produced by Quarto)
+*_files/
+
+# Exclude HTML output
+*.html
