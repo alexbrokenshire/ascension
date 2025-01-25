@@ -12,6 +12,14 @@ format:
 jupyter: python3
 ---
 
+```{python}
+# Initial setup - allow src path to be imported and load in the relevant
+# helper functions:
+import sys
+sys.path.append('../../src')
+from helper_functions import display_bivariate_truth_table
+```
+
 ### Introduction
 There exist multiple _formal systems_ of logic. **Propositional logic** 
 (sometimes also referred to as sentential or truth-functional logic) is one such 
@@ -24,7 +32,9 @@ we intend to discuss are extensions of propositional logic.
 
 
 ##### Implication
-
+```{python}
+display_bivariate_truth_table('p ∧ q')
+```
 
 ##### Negation
 
