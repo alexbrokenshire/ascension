@@ -1,0 +1,55 @@
+---
+title: "Propositional Logic"
+author: "Alex Brokenshire"
+date: now
+date-format: "YYYY-MM-DD"
+format:
+    html:
+        code-fold: True
+        toc: True
+        toc-depth: 5
+        toc-location: left
+jupyter: python3
+---
+
+### Introduction
+There exist multiple _formal systems_ of logic. **Propositional logic** 
+(sometimes also referred to as sentential or truth-functional logic) is one such 
+_formal system_ that focuses in particular on what inferences we can make about 
+_sentences_ using **logical connectives**. The other _formal systems_ of logic 
+we intend to discuss are extensions of propositional logic. 
+
+### Syntax 
+##### Use and mention
+
+
+##### Implication
+
+
+##### Negation
+
+
+##### Conjunction
+
+
+##### Disjunction
+
+
+### Semantics
+
+
+### Paradoxes and Limitations
+
+\
+\
+\
+
+### References and further reading
+[Franks, C. (2024). 'Propositional Logic'. _The Stanford Encyclopedia of Philosophy (Summer 2024 Edition)_](https://plato.stanford.edu/entries/logic-propositional/)
+
+[Halbach, V. (2008). _The Logic Manual_. Oxford: Oxford University Press. pp. 26-72.](https://users.ox.ac.uk/~logicman/)
+
+[Magnus, P. (2017). _forallx: An introduction to formal logic_.](https://www.fecundity.com/logic/)
+
+[Sider, T. (2009). _Logic for Philosophy_. Oxford: Oxford University Press. pp. 30-114.](https://tedsider.org/books/lfp.html)
+
