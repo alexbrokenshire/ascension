@@ -9,6 +9,9 @@ format:
         toc: True
         toc-depth: 5
         toc-location: left
+execute:
+    warning: false
+    error: false
 jupyter: python3
 ---
 
@@ -30,19 +33,41 @@ we intend to discuss are extensions of propositional logic.
 ### Syntax 
 ##### Use and mention
 
-
+### Primitive connectives
 ##### Implication
+```{python}
+display_bivariate_truth_table('p → q')
+```
+
+##### Negation
+```{python}
+display_bivariate_truth_table(['¬p','¬q'])
+```
+
+### Connectives
+##### Conjunction
 ```{python}
 display_bivariate_truth_table('p ∧ q')
 ```
 
-##### Negation
-
-
-##### Conjunction
-
-
 ##### Disjunction
+```{python}
+display_bivariate_truth_table('p ∨ q')
+```
+
+##### Biconditional
+```{python}
+display_bivariate_truth_table('p ↔ q')
+```
+
+##### De Morgan's laws
+```{python}
+display_bivariate_truth_table(['¬(p ∧ q)','¬p ∨ ¬q'])
+```
+
+```{python}
+display_bivariate_truth_table(['¬(p ∨ q)','¬p ∧ ¬q'])
+```
 
 
 ### Semantics
