@@ -23,44 +23,45 @@ sys.path.append('../../src')
 from helper_functions import display_bivariate_truth_table
 ```
 
-### Introduction
+## 1    Introduction
 There exist multiple _formal systems_ of logic. **Propositional logic** 
 (sometimes also referred to as sentential or truth-functional logic) is one such 
 _formal system_ that focuses in particular on what inferences we can make about 
 _sentences_ using **logical connectives**. The other _formal systems_ of logic 
 we intend to discuss are extensions of propositional logic. 
 
-### Syntax 
-##### Use and mention
+## 2    Syntax 
+#### 2.1    Use and mention
 
-### Primitive connectives
-##### Implication
+#### 2.2    Primitive connectives
+###### 2.2.1    Implication
 ```{python}
 display_bivariate_truth_table('p → q')
 ```
 
-##### Negation
+###### 2.2.2    Negation
 ```{python}
 display_bivariate_truth_table(['¬p','¬q'])
 ```
 
-### Connectives
-##### Conjunction
+#### 2.3    Connectives
+###### 2.3.1    Conjunction
 ```{python}
 display_bivariate_truth_table('p ∧ q')
 ```
 
-##### Disjunction
+###### 2.3.2    Disjunction
 ```{python}
 display_bivariate_truth_table('p ∨ q')
 ```
 
-##### Biconditional
+###### 2.3.3    Biconditional
 ```{python}
 display_bivariate_truth_table('p ↔ q')
 ```
 
-##### De Morgan's laws
+###### 2.3.4    De Morgan's laws
+An interesting rule of substitution
 ```{python}
 display_bivariate_truth_table(['¬(p ∧ q)','¬p ∨ ¬q'])
 ```
@@ -69,17 +70,20 @@ display_bivariate_truth_table(['¬(p ∧ q)','¬p ∨ ¬q'])
 display_bivariate_truth_table(['¬(p ∨ q)','¬p ∧ ¬q'])
 ```
 
+###### 2.3.5    Properties and ambiguity
 
-### Semantics
+## 3    Semantics: Connectives
+
+## 4
 
 
-### Paradoxes and Limitations
+## 4    Paradoxes and Limitations
 
 \
 \
 \
 
-### References and further reading
+## References and further reading
 [Franks, C. (2024). 'Propositional Logic'. _The Stanford Encyclopedia of Philosophy (Summer 2024 Edition)_](https://plato.stanford.edu/entries/logic-propositional/)
 
 [Halbach, V. (2008). _The Logic Manual_. Oxford: Oxford University Press. pp. 26-72.](https://users.ox.ac.uk/~logicman/)

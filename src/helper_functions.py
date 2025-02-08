@@ -4,7 +4,8 @@ import pandas as pd
 bivar_truth_table()
 This function is used to return a truth table. It has a single parameter 
 'selection', which you can pass a list or value to to select the particular 
-connective expressions to display.
+connective expressions to display. This needs updating with a parser as the 
+current solution is neither DRY nor efficient.
 """
 def display_bivariate_truth_table(selection = None):
     #if (not selection == None) and (any(val == 'p' or val == 'q' for val in selection)):
